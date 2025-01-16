@@ -1,0 +1,28 @@
+.slidebar{
+    position: fixed;
+    left: 0px;
+    background-color: white;
+    bottom: 0px;
+    top: 55px;
+    width: 72px;
+    z-index: 200;
+}
+.slidebar-link{
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.slidebar-link:hover{
+    background-color: rgb(225, 221, 221);
+}
+.slidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+.slidebar-link div {
+    font-family: Arial;
+    font-size: 10px;
+}
